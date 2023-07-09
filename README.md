@@ -1,2 +1,2 @@
-# First-steps-in-C-
+# First-steps-in-C#
 Making a story by user input
