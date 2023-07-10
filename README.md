@@ -23,6 +23,7 @@ has uppercase letters
 has numerical digits
 has symbols, like #, ?, !
 The program will ask the user to input a password, and using conditional logic and control flow, it will rate the password.
+
 4. Choose Your Own Adventure
 In this project, you’ll use logic and conditional statements to write a classic text-based Choose Your Own Adventure Game. Depending on what choices your user makes, the program will have a different result. If you’re interested in game development, this is a great project to get your started! While we’re only working with text, the principles of user input and control flow are used to build even highly advanced games.
 
