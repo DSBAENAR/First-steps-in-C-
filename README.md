@@ -14,7 +14,7 @@
   16 bronze coins,
   3 silver coins and 1 bronze coin, or
   1 gold coin, 1 silver coin, 1 bronze coin
-3. In this project you’ll make a program that measures the strength of any given password based on the following criteria. A strong password:
+3.  In this project you’ll make a program that measures the strength of any given password based on the following criteria. A strong password:
 
 is at least 8 characters long
 has lowercase letters
