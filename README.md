@@ -1,4 +1,5 @@
 # First-steps-in-C#
+#Some projects you may interested!
 1. Making a story by user input
 2. You have three types of coins:
   A bronze coin is worth 1 cent
@@ -28,3 +29,7 @@ The program will ask the user to input a password, and using conditional logic a
 In this project, you’ll use logic and conditional statements to write a classic text-based Choose Your Own Adventure Game. Depending on what choices your user makes, the program will have a different result. If you’re interested in game development, this is a great project to get your started! While we’re only working with text, the principles of user input and control flow are used to build even highly advanced games.
 
 We’ve provided you with a template to write a game, but we highly encourage you to take what you’ve learned here and use your creativity to write an original game, either here on Codecademy or off-platform!
+
+5. Architect Arithmetic
+Architects have big ideas – but big ideas can be expensive. How expensive? Depends on the size.
+In this project, you’ll use methods to build a program that calculates the material cost for any architect’s floor plan. In this case, i had to calculate the cost for teotihuacan building.
