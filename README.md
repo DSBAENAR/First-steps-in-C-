@@ -1,5 +1,5 @@
 # First-steps-in-C#
-#Some projects you may interested!
+# Some projects you may interested!
 1. Making a story by user input
 2. You have three types of coins:
   A bronze coin is worth 1 cent
