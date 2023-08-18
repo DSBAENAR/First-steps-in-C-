@@ -10,16 +10,18 @@ Console.WriteLine($"Dice roll: {roll1} + {roll2} + {roll3} = {total}");
 int extraPoints;
 
 
-if ((roll1 == roll2) && (roll1 == roll3)) {
+if ((roll1 == roll2) || (roll1 == roll3) || (roll2 == roll3)) {
+    if ((roll1 == roll2) && (roll1 == roll3)) {
     extraPoints = 6;
     Console.WriteLine($" You have extra points: {extraPoints} points more");
     total += extraPoints;
-}
+    }
 
-if ((roll1 == roll2) || (roll1 == roll3) || (roll2 == roll3)) {
+    else {
     extraPoints = 2;
     Console.WriteLine($" You have extra points: {extraPoints} points more");
     total += extraPoints;
+    }
 
 }
 
