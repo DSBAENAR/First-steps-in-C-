@@ -33,3 +33,10 @@ We’ve provided you with a template to write a game, but we highly encourage yo
 5. Architect Arithmetic
 Architects have big ideas – but big ideas can be expensive. How expensive? Depends on the size.
 In this project, you’ll use methods to build a program that calculates the material cost for any architect’s floor plan. In this case, i had to calculate the cost for teotihuacan building.
+
+6. Ejercicio: Desarrollo de lógica de decisión con instrucciones if (Microsoft learn)
+   Usará el método Random.Next() para simular el lanzamiento de tres dados de seis caras. Para calcular la puntuación, evaluará los valores obtenidos. Si la puntuación    es mayor que un total arbitrario, se mostrará un mensaje de éxito al usuario. Si la puntuación está por debajo del límite, se mostrará un mensaje de fracaso al usuario.
+
+   Si dos dados cualesquiera muestran el mismo valor, se obtienen dos puntos extra por obtener un doble.
+   Si los tres dados muestran el mismo valor, se obtienen seis puntos extra por obtener un triple.
+   Si la suma de los tres dados, junto con los puntos extra, es igual o mayor que 15, gana el juego. De lo contrario, pierde.
