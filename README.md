@@ -64,3 +64,43 @@ La aplicación debe generar o mostrar el nombre de cada alumno y la nota con for
 
 La aplicación debe admitir la incorporación de otros alumnos y de otras notas sin que ello afecte al código en gran medida.
 
+# 8. Actualización del proyecto guiado ( por Microsoft Learn)
+## Introducción.
+Supongamos que es auxiliar de un profesor en un colegio y que desarrolló una aplicación para automatizar el proceso de calificación. La aplicación usa matrices para almacenar los nombres de los alumnos y las tareas calificadas. La aplicación también implementa una combinación de instrucciones de iteración y selección para calcular y notificar la calificación final de cada alumno. La aplicación incluso diferencia entre las tareas de los exámenes y las tareas de créditos adicionales al calcular las calificaciones de los alumnos. Aunque la aplicación hace todo lo que el profesor solicitó, ha recibido una solicitud de nuevas características. El profesor le ha pedido que actualice el informe de calificaciones para que muestre las notas de los exámenes y las tareas de créditos adicionales separadas de la calificación numérica final y la nota con letra.
+
+Este módulo le desafía a agregar nuevas funcionalidades a la aplicación Student Grading.
+
+En resumen, debe usar la especificación del informe de calificaciones actualizada del profesor para:
+
+- Actualizar el código de iteración y selección para calcular las notas finales independientes de los exámenes, las tareas de créditos adicionales y la calificación global.
+- Actualizar el código que escribe el informe de calificaciones en la consola.
+
+## Ejercicio: Actualización de la salida con formato
+
+La aplicación Student Grading se usa para calcular y notificar calificaciones de alumnos en función de su examen calificado y de las asignaciones de crédito adicionales. Su objetivo en este desafío es actualizar el código que genera un informe de puntuación de acuerdo con los requisitos actualizados del profesor.
+
+### Especificación
+En este primer ejercicio de desafío, tiene que crear instancias de las variables necesarias para el informe de puntuación actualizado y, a continuación, actualizar la instrucción Console.WriteLine() que escribe las calificaciones de los alumnos en la consola.
+
+La aplicación actualizada debe:
+
+- Usar las matrices y los valores de matriz existentes de todos los cálculos de calificaciones de alumnos.
+- Usar la estructura anidada proporcionada por las instrucciones foreach y if existentes.
+- Declarar e inicializar cualquier otra variable de entero que sea necesaria para calcular las sumas.
+- Declarar e inicializar cualquier otra variable decimal que sea necesaria para los cálculos y valores de los informes de puntuación.
+
+# Ejercicio: Actualización de los valores calculados
+
+La aplicación Student Grading se usa para calcular y notificar calificaciones de alumnos en función de su examen calificado y de las asignaciones de crédito adicionales. Su objetivo en este desafío es actualizar el código que calcula las calificaciones de los alumnos de acuerdo con los requisitos actualizados del profesor.
+
+## Especificación
+En este segundo ejercicio de desafío, tiene que crear instancias de las variables necesarias para el informe de puntuación actualizado, completar los cálculos necesarios y, a continuación, actualizar la instrucción Console.WriteLine() que escribe las calificaciones de los alumnos en la consola.
+
+La aplicación actualizada debe:
+
+- Usar las matrices y los valores de matriz existentes de todos los cálculos de calificaciones de alumnos.
+- Usar la estructura anidada proporcionada por las instrucciones foreach y if existentes.
+- Calcular la suma de las puntuaciones de exámenes y asignaciones de crédito adicionales mediante las variables del primer ejercicio o el código original.
+- Calcular el promedio de las puntuaciones de los exámenes y los créditos adicionales mediante las variables del primer ejercicio o el código original.
+- Calcular la puntuación numérica final de la siguiente manera: agregue el 10 % de la suma de puntuación de crédito adicional a la suma de puntuación del examen y, a continuación, divida ese valor por el número de exámenes.
+- Calcular los puntos de crédito adicionales obtenidos de la siguiente manera: divida el 10 % de la suma de puntuación de crédito adicional por el número de exámenes.
